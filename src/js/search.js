@@ -60,7 +60,7 @@ function clearMarkup() {
 function noResult() {
   info({
     title: 'Holy Dude!',
-    text: 'No matches found!',
+    text: 'No such country in the real world!',
     delay: 1500,
     closerHover: true,
   });
@@ -68,7 +68,7 @@ function noResult() {
 
 function tooManyCountries() {
   error({
-    title: '!',
+    title: 'Holy Dude!!',
     text: 'Too many matches found. Please enter a more specific query!',
     delay: 2500,
     closerHover: true,
