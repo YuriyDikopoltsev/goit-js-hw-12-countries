@@ -69,7 +69,7 @@ function noResult() {
 function tooManyCountries() {
   error({
     title: 'Holy Dude!!',
-    text: 'Too many matches found. Please enter a more specific query!',
+    text: 'Too many matches! Be more precise please!',
     delay: 2500,
     closerHover: true,
   });
